@@ -9,20 +9,26 @@ function Numbers(){
         </div>
         <div className="statistics">
             <div>
-                <h1>5+</h1>
-                <h3>Coaching centers</h3>
+                <div className="plus">
+                    <h1>5</h1>
+                    <h3>+</h3>
+                </div >
+                <h3 className="feature">Coaching centers</h3>
             </div>
             <div>
-                <h1>10+</h1>
-                <h3>Experienced coaches</h3>
+            <div className="plus">
+                <h1>10</h1>
+                <h3>+</h3>
+            </div>
+                <h3 className="feature">Experienced coaches</h3>
             </div>
             <div>
-                <h1>200+</h1>
-                <h3>Community Members</h3>
+            <div className="plus"><h1>200</h1><h3>+</h3></div>
+                <h3 className="feature">Community Members</h3>
             </div>
             <div>
-                <h1>600+</h1>
-                <h3>Academy Graduates</h3>
+                <div className="plus"><h1>600</h1><h3>+</h3></div>
+                <h3 className="feature">Academy Graduates</h3>
             </div>
         </div>
         
