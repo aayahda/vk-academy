@@ -37,3 +37,49 @@ code {
   font-weight: 400;
   padding-right: 1rem;
 }
+.numbers{
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.numbers div h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: -2.5px;
+}
+
+.numbers div h2{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #969696;
+}
+.statistics {
+  padding-inline: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+  justify-content: space-evenly ;
+  margin-top: 20px; 
+}
+.statistics div{
+  width: 150px;
+  justify-content: space-around;
+}
+.statistics div h1{
+  color: #DD2121;
+  font-style: normal;
+  font-size: 70px;
+  margin: 0;
+}
+.statistics div h3{
+  margin: 0;
+}
+
+
